@@ -36,6 +36,6 @@ Also note that since the jquery-3.6.4.1.slim.min.js file is required to be downl
 4. Drag the src folder with the three files onto the same extension page, or click the "Load unpacked" button from the top left, navigate to the src folder, and add the whole folder.
 
 **AFTER INSTALLATION**
-- "Kill Twitter Doge" should now be installed and enabled.
+- "Kill Twitter Doge" should now be enabled and appear with any other installed extensions as an unpacked extension.
 - Once installed, navigating to any Twitter page should eliminate the Doge. Works fine for me on Chrome but it could still lag or crash on Twitter updates or in rare situations.
 - All files used to install the extension should be removed. Refer to this GitHub repo for changes to this extension. **THIS EXTENSION HAS NO WAY TO AUTOMATICALLY UPDATE**
