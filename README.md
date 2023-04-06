@@ -15,14 +15,15 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
 
 ## Safe installation instructions
 **Download jQuery library file and use Chrome Developer Mode to install an extension that is not on the Chrome Web Store**
-1. Download and extract project
-   a. Left click the green on on the top right of this page
-   b. Click "Download ZIP" and save to any temporary location you can work in.
-   c. Extract the ZIP file and note the path to the src folder. The src folder contains the extension code and is used for installation in the next steps.
+
+1. Download and extract the project
+   * Left click the green on on the top right of this page
+   * Click "Download ZIP" and save to any temporary location you can work in.
+   * Extract the ZIP file and note the path to the src folder. The src folder contains the extension code and is used for installation in the next steps.
 2. Download jquery-3.6.4.slim.min.js and save it in the src directory with kill-doge.js and manifest.json
    * [Official jQuery download page](https://jquery.com/download/)
    * **Easier way** Direct link to the required library version: [jquery-3.6.4.slim.min.js](https://code.jquery.com/jquery-3.6.4.slim.min.js) (Note the jquery.com domain)
-     - Right-click, click "Save link as", save file into src folder. Or click to follow the link, right click the page, click "Save as" into the src directory. Same thing.
+    - Right-click, click "Save link as", save file into src folder. Or click to follow the link, right click the page, click "Save as" into the src directory. Same thing.
    * **IMPORTANT:** If you save the wrong version to the src folder the extension will fail with errors.
 3. Go to Chrome Extensions (chrome://extensions/) and ensure "Developer mode" is toggled ON from the extensions page (top right corner)
 4. Drag the src folder with the three files onto the same extension page, or click the "Load unpacked" button from the top left, navigate to the src folder, and add the whole folder.
