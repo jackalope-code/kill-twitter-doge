@@ -23,7 +23,7 @@ Also note that since the jquery-3.6.4.1.slim.min.js file is required to be downl
 ## Safe installation instructions
 **Download jQuery library file and use Chrome Developer Mode to install an extension that is not on the Chrome Web Store**
 
-1. Download and extract the project
+1. Download as a ZIP file and extract the project (or with git installed `git clone` the repo and skip to step 2).
    * Left click the green on on the top right of this page
    * Click "Download ZIP" and save to any temporary location you can work in.
    * Extract the ZIP file and note the path to the src folder. The src folder contains the extension code and is used for installation in the next steps.
