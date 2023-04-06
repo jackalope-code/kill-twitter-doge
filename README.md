@@ -1,6 +1,11 @@
 # Kill Twitter Doge
+**IMPORTANT!**  
+  USE AT YOUR OWN RISK! EXPECT THIS TO BREAK AT A LATER TIME WHEN TWITTER UPDATES! MAY CAUSE A BROWSER CRASH AND LOSS OF SESSION DATA IN THE WORST CASE!  
+ONCE THE TWITTER LOGO IS SWITCHED BACK TO THE BIRD, DISABLING THIS ADDON IS HIGHLY RECOMMENDED!  
+MANUAL INSTALLATIONS MUST BE MANAGED BY THE USER AND I CANNOT PROVIDE AUTOMATIC UPDATES OR BUGFIXES. ANY NEW UPDATES WOULD REQUIRE MANUALLY DOWNLOADING CHANGES AND UPDATING MANUALLY THROUGH THE INSTALLATION PROCESS OUTLINED BELOW. THIS IS A HACK AND IT IS NOT MY INTENT TO SUPPORT THIS EXTENSION AS IT CURRENTLY EXISTS LONG TERM.  
+AGAIN, USE THIS AT YOUR OWN RISK!
+
 Remove and replace the terrible Doge loading screen and home icons with the regular Twitter icons.
-It's not perfect but it gets the job done.
 
 ## Compatibility
 - Tested on Google Chrome for now. This may work fine on Firefox without modification but I haven't bundled or tested for it yet. 
@@ -28,7 +33,7 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
 3. Go to Chrome Extensions (chrome://extensions/) and ensure that "Developer mode" is toggled ON from the extensions page (top right corner)
 4. Drag the src folder with the three files onto the same extension page, or click the "Load unpacked" button from the top left, navigate to the src folder, and add the whole folder.
 
-"Kill Twitter Doge" should now be installed and enabled.
-Once installed, navigating to any Twitter page should eliminate the Doge. Works fine for me on Chrome but it could still lag or crash, idk.
-All files used to install the extension should now be fine to delete, as long as you're not interested in re-installing the extension at another time.
-
+**AFTER INSTALLATION**
+- "Kill Twitter Doge" should now be installed and enabled.
+- Once installed, navigating to any Twitter page should eliminate the Doge. Works fine for me on Chrome but it could still lag or crash on Twitter updates or in rare situations.
+- All files used to install the extension should be removed. Refer to this GitHub repo for changes to this extension. **THIS EXTENSION HAS NO WAY TO AUTOMATICALLY UPDATE**
