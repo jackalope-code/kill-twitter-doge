@@ -18,7 +18,8 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
 1. Download the src directory to some temporary directory on your pc.
 2. Download jquery-3.6.4.slim.min.js and save it in the src directory with kill-doge.js and manifest.json
   - [Official jQuery download page](https://jquery.com/download/)
-  - **Easy way** Direct link to the required library version: [jquery-3.6.4.slim.min.js](https://code.jquery.com/jquery-3.6.4.slim.min.js) (Note the jquery.com domain)     - Right-click, click Save link as, save file into src folder. Or click to follow the link, right click the page, click "Save as" into the src directory. Same thing.
+  - **Easy way** Direct link to the required library version: [jquery-3.6.4.slim.min.js](https://code.jquery.com/jquery-3.6.4.slim.min.js) (Note the jquery.com domain)
+    - Right-click, click Save link as, save file into src folder. Or click to follow the link, right click the page, click "Save as" into the src directory. Same thing.
   - IMPPORTANT: If you save the wrong version to the src folder the extension will fail with errors.
 - Go to Chrome Extensions (chrome://extensions/) and ensure "Developer mode" is toggled ON from the extensions page (top right corner)
 - Drag the src folder with the three files onto the same extension page, or click the "Load unpacked" button from the top left, navigate to the src folder, and add the whole folder.
