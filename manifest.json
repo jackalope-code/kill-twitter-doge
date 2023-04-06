@@ -1,0 +1,14 @@
+{
+	"name": "Kill Twitter Doge",
+	"version": "1.0",
+	"permissions": [
+		"tabs"
+	],
+	"content_scripts":
+	[{
+		"matches": ["*://*.twitter.com/*"],
+		"js": ["jquery-3.6.4.slim.min.js", "kill-doge.js"],
+		"run_at": "document_start"
+	}],
+	"manifest_version": 3
+}
