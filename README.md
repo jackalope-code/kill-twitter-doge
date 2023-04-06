@@ -25,7 +25,7 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
    * **Easier way** Direct link to the required library version: [jquery-3.6.4.slim.min.js](https://code.jquery.com/jquery-3.6.4.slim.min.js) (Note the jquery.com domain)
     - Right-click, click "Save link as", save file into src folder. Or click to follow the link, right click the page, click "Save as" into the src directory. Same thing.
    * **IMPORTANT:** If you save the wrong version to the src folder the extension will fail with errors.
-3. Go to Chrome Extensions (chrome://extensions/) and ensure "Developer mode" is toggled ON from the extensions page (top right corner)
+3. Go to Chrome Extensions (chrome://extensions/) and ensure that "Developer mode" is toggled ON from the extensions page (top right corner)
 4. Drag the src folder with the three files onto the same extension page, or click the "Load unpacked" button from the top left, navigate to the src folder, and add the whole folder.
 
 "Kill Twitter Doge" should now be installed and enabled.
