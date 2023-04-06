@@ -13,10 +13,12 @@ Remove and replace the terrible Doge loading screen and home icons with the regu
 
 ## Security and data usage
 - Accesses data only from the Twitter site. **Data accessed is minimal and only used to monitor page changes and replace content. No user data is saved or sent to external servers.** Developers can audit to ensure this themselves as outlined in the following section.
-- (Developers) This extension does rely on the minified jQuery to parse HTML. This extension uses jquery-3.6.4.slim.min.js. It is not bundled from here for the sake of a "no trust" installation approach. It is more secure to download the library from a trusted source instead of relying on me bundling the library without modifications. Official download links are provided below.
+- (Developers) This extension relies on jQuery as an external dependency to parse HTML. This extension uses jquery-3.6.4.slim.min.js. Official download links are provided below.
 
 ## (Developers) Optionally self audit the code
-If you are comfortable with Javascript and wish to briefly audit the code for security, you should review the contents of kill-doge.js. Note that minimal jQuery is used and no data is sent to other servers. Only one flag is set to local storage, which is crucial to prevent the extension from running in an infinite loop and crashing the browser. If you are familiar with Chrome Extensions, the kill-doge.js file executes as a content script with the "tabs" permission and only on the Twitter site. This can be verified from the manifest.json file.
+If you are comfortable with Javascript and wish to briefly audit the code for security, you should review the contents of kill-doge.js. Note that minimal jQuery is used and no data is sent to other servers. Only one flag is set to local storage, which is crucial to prevent the extension from running in an infinite loop and crashing the browser. If you are familiar with Chrome Extensions, the kill-doge.js file executes as a content script with the "tabs" permission and only on the Twitter site. This can be verified from the manifest.json file.  
+
+Also note that since the jquery-3.6.4.1.slim.min.js file is required to be downloaded from the jQuery site, we are trusting the jQuery site to have a reliable and untampered version of this library. The library is not bundled with this extension and is instead a required install for this reason.
 
 ## Safe installation instructions
 **Download jQuery library file and use Chrome Developer Mode to install an extension that is not on the Chrome Web Store**
