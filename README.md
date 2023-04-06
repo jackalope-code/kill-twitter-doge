@@ -4,17 +4,19 @@ It's not perfect but it gets the job done.
 
 ## Compatibility
 - Tested on Google Chrome for now. This may work fine on Firefox without modification but I haven't bundled or tested for it yet. 
-- Requires Developer Mode to be enabled. This extension is not available on the Chrome Web Store
+- Requires developer mode to be enabled from the extensions page (instructions on installation section). This extension is NOT available on the Chrome Web Store at this time.
 
-## Security and permissions
-- Accesses data only from the Twitter site. Data accessed is minimal and only used to monitor page changes and replace content. No data is sent to external servers.
-- Source code is available in the src folder. You can review the contents of the src folder and install the extension from the src folder. If you are familiar with Javascript you should be able to review the extension code to determine whether or not you trust it.
-- This extension does rely on the minified jQuery to parse HTML. This extension uses jquery-3.6.4.slim.min.js. It is not bundled from here for the sake of a "no trust" installation approach. It is more secure to download the library from a trusted source instead of relying on me bundling the library without modifications. Downloading the library is as simple as downloading a file and I provide official links below.
+## Security and data usage
+- Accesses data only from the Twitter site. **Data accessed is minimal and only used to monitor page changes and replace content. No user data is saved or sent to external servers.** Developers can audit to ensure this themselves as outlined in the following section.
+- (Developers) This extension does rely on the minified jQuery to parse HTML. This extension uses jquery-3.6.4.slim.min.js. It is not bundled from here for the sake of a "no trust" installation approach. It is more secure to download the library from a trusted source instead of relying on me bundling the library without modifications. Official download links are provided below.
+
+## (Developers) Optionally self audit the code
+If you are comfortable with Javascript and wish to briefly audit the code for security, you should review the contents of kill-doge.js. Note that minimal jQuery is used and no data is sent to other servers. Only one flag is set to local storage, which is crucial to prevent the extension from running in an infinite loop and crashing the browser. If you are familiar with Chrome Extensions, the kill-doge.js file executes as a content script with the "tabs" permission and only on the Twitter site. This can be verified from the manifest.json file.
 
 ## Safe installation instructions
 **Download jQuery library file and use Chrome Developer Mode to install an extension that is not on the Chrome Web Store**
-- Download the src directory to some temporary directory on your pc
-- Download jquery-3.6.4.slim.min.js and save it in the src directory with kill-doge.js and manifest.json
+1. Download the src directory to some temporary directory on your pc.
+2. Download jquery-3.6.4.slim.min.js and save it in the src directory with kill-doge.js and manifest.json
   - [Official jQuery download page](https://jquery.com/download/)
   - [Direct link to the required jquery-3.6.4.slim.min.js library file](https://code.jquery.com/jquery-3.6.4.slim.min.js) (Right-click, click Save as, save into src folder)
   - IMPPORTANT: If you save the wrong version to the src folder the extension will fail with errors.
