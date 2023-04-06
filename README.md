@@ -15,7 +15,10 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
 
 ## Safe installation instructions
 **Download jQuery library file and use Chrome Developer Mode to install an extension that is not on the Chrome Web Store**
-1. Download the src directory to some temporary directory on your pc.
+1. Download project
+  - Click the green Code button on the top right of this page
+  - Click "Download ZIP" and save to any temporary location you can work in.
+  - Extract the ZIP file and note the path to the src folder. The src folder contains the extension code and is used for installation in the next steps.
 2. Download jquery-3.6.4.slim.min.js and save it in the src directory with kill-doge.js and manifest.json
   - [Official jQuery download page](https://jquery.com/download/)
   - **Easier way** Direct link to the required library version: [jquery-3.6.4.slim.min.js](https://code.jquery.com/jquery-3.6.4.slim.min.js) (Note the jquery.com domain)
@@ -26,4 +29,5 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
 
 "Kill Twitter Doge" should now be installed and enabled.
 Once installed, navigating to any Twitter page should eliminate the Doge. Works fine for me on Chrome but it could still lag or crash, idk.
+All files used to install the extension should now be fine to delete, as long as you're not interested in re-installing the extension at another time.
 
