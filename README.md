@@ -1,5 +1,5 @@
 # Kill Twitter Doge
-Undo the terrible doge loading screen and home icons and replace them with the regular Twitter icons.
+Remove and replace the terrible Doge loading screen and home icons with the regular Twitter icons.
 It's not perfect but it gets the job done.
 
 ## Compatibility
