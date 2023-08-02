@@ -20,7 +20,7 @@ If you are comfortable with Javascript and wish to briefly audit the code for se
 
 Also note that since the jquery-3.6.4.1.slim.min.js file is required to be downloaded from the jQuery site, we are trusting the jQuery site to have a reliable and untampered version of this library. The library is not bundled with this extension and is instead a required install for this reason.
 
-## Safe installation instructions
+## Installation instructions
 **Download jQuery library file and use Chrome Developer Mode to install an extension that is not on the Chrome Web Store**
 
 1. Download as a ZIP file and extract the project (or with git installed `git clone` the repo and skip to step 2).
